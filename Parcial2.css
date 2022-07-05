@@ -1,0 +1,105 @@
+
+
+/* Ahora si, aplicar estilos */
+
+html {
+  font-family: 'Anek Latin', sans-serif;
+  font-size: 20px;
+}
+
+header {
+  color: black;
+  width: 100%;
+}
+
+
+.navbar-inverse{
+    background-color: #7c18e1;
+}
+
+.navbar-brand{
+    /*Nombre de la empresa*/
+    font-weight: bold;
+}
+
+.container-fluid{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-nav{
+    position: relative;
+}
+
+#QuienesSomos{
+    background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(https://www.crushpixel.com/big-static15/preview4/modern-computer-technology-blue-background-2174897.jpg);
+    color: white;
+    max-width: 100%;
+    position: relative;
+    min-height: 70vh;
+    /* opacity: 0.9; */
+    position: relative;
+    
+}
+
+.TxtColumna{
+    margin-top: 10%;
+    font-size: 3vh;
+    position: relative;
+}
+
+.titulo{
+    font-size: 4vh;
+}
+
+.txt{
+max-width: 75%;
+position: relative;
+left: 15%;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+
+.EnvioGratis{
+    width: 100%;
+    max-height: 10%;
+}
+
+#EnvioGratis h5{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 2vh;
+    position: relative;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+#imgAuto{
+    max-width: 70px;
+    width: 70px;
+    min-width: 70px;
+}
+
+span{
+    color: red;
+}
+
+footer{
+    padding-top: 2%;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    height: 20vh;
+    font-size: 1.5vh;
+    line-height: 2vh;
+    padding-left: 1%;
+}
