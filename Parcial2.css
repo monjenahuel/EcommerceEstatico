@@ -103,3 +103,59 @@ footer{
     line-height: 2vh;
     padding-left: 1%;
 }
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Producto{
+    max-width: 25%;
+    background-color: #7c18e1;
+    position: relative;
+    height: 75vh;
+    float: left;
+    margin-left: 10vh;
+    /* width: 2000px; */
+}
+
+#Producto2{
+    max-width: 25%;
+    background-color: #7c18e1;
+    position: relative;
+    height: 75vh;
+    float: left;
+    margin-left: 10vh;
+    /* width: 2000px; */
+}
+
+#Producto3{
+    max-width: 25%;
+    background-color: #7c18e1;
+    position: relative;
+    height: 75vh;
+    float: left;
+    margin-left: 10vh;
+    /* width: 2000px; */
+}
+
+.image{
+    max-width: 100%;
+    width: 200vh;
+}
+
+.Descripcion{
+    width: 50vh;
+    font-weight: bold;
+}
+
+.precio{
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.btn-primary{
+    position: relative;
+    left: 15vh;
+    top: 3vh;
+}
