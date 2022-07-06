@@ -1,4 +1,10 @@
+body{
+    background-color: #161616 !important;
+}
 
+.QuienesSomosBody{
+    background-color: white !important;
+}
 
 /* Ahora si, aplicar estilos */
 
@@ -122,14 +128,23 @@ footer{
     margin-bottom: 10px;
     /* padding-left: 10px; */
     /* width: auto; */
-    margin-top: 2%;
+    margin-top: 50px;
     margin-left: 2.5%;
     /* margin-left: 5vh; */
+    color: white;
 }
+
+/* #Producto:hover{
+    opacity: 0.5;
+} */
 
 .image{
     max-width: 100%;
     width: 400px;
+}
+
+.image:hover{
+    opacity: 0.5;
 }
 
 .Descripcion{

@@ -1,0 +1,89 @@
+*{
+	box-sizing: border-box;
+}
+
+/*  */
+html {
+	font-family: 'Anek Latin', sans-serif;
+	font-size: 20px;
+  }
+  
+  header {
+	color: black;
+	min-width: 100%;
+  }
+  
+  .navbar-brand{
+	  /*Nombre de la empresa*/
+	  font-weight: bold;
+  }
+  
+  .container-fluid{
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+  }
+  
+  .navbar-nav{
+	  position: relative;
+  }
+  
+/*  */
+body{
+	background-color: #161616 !important;
+	color: white !important;
+	font-family: 'Varela Round', sans-serif;
+	padding: 0 1 5em; 
+}
+
+.contenedor{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding:1.5em;
+	background-color: #161616;
+}
+
+.titulo{
+	text-align: center;
+	font-size: 4em;
+	margin-bottom: 25px;
+}
+
+.contacto{
+	box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+.contacto > *{
+	padding: 1em;
+} 
+
+ 
+.contacto-form form{
+	margin: 0;
+	padding: 1em;
+}
+
+
+.contacto-form form input,
+.contacto-form form textarea {
+	width: 100%;
+	padding: 0.7em;
+	border: none;
+	background: none;
+	outline: 0;
+	color: rgb(180, 180, 180);
+	border-bottom: 2px solid #100386;
+}
+
+.info{
+	background-color: black;
+}
+
+span{
+	color: red;
+	font-weight: bolder;
+}
+
+.btn-default{
+	background-color: #100386 !important;
+	color: white !important;
+}
