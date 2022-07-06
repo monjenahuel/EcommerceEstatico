@@ -9,7 +9,7 @@ html {
 
 header {
   color: black;
-  width: 100%;
+  min-width: 100%;
 }
 
 
@@ -77,12 +77,12 @@ padding-bottom: 2%;
     position: relative;
 }
 
-.container{
+/* .container{
     position: relative;
     text-align: center;
     margin-bottom: 1%;
     width: 100%;
-}
+} */
 
 #imgAuto{
     max-width: 70px;
@@ -105,48 +105,35 @@ footer{
 }
 
 .container{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    min-width: 33%;
+    
 }
 
 #Producto{
-    max-width: 25%;
-    background-color: #7c18e1;
-    position: relative;
-    height: 75vh;
+    /* background-color: #7c18e1; */
+    /* height: 75vh; */
+    max-width: 100%;
+    min-width: 30%;
     float: left;
-    margin-left: 10vh;
-    /* width: 2000px; */
-}
-
-#Producto2{
-    max-width: 25%;
-    background-color: #7c18e1;
-    position: relative;
-    height: 75vh;
-    float: left;
-    margin-left: 10vh;
-    /* width: 2000px; */
-}
-
-#Producto3{
-    max-width: 25%;
-    background-color: #7c18e1;
-    position: relative;
-    height: 75vh;
-    float: left;
-    margin-left: 10vh;
-    /* width: 2000px; */
+    /* margin-bottom: 150px; */
+    /* padding-left: 10px; */
+    /* width: auto; */
+    margin-top: 2%;
+    margin-left: 2.5%;
+    /* margin-left: 5vh; */
 }
 
 .image{
     max-width: 100%;
-    width: 200vh;
+    width: 400px;
 }
 
 .Descripcion{
     width: 50vh;
     font-weight: bold;
+    max-width: 100%;
 }
 
 .precio{
@@ -155,7 +142,25 @@ footer{
 }
 
 .btn-primary{
-    position: relative;
+    /* position: absolute; */
+    
+    /* left: 25%;
+    top: 50%;
     left: 15vh;
-    top: 3vh;
+    top: 3vh; */
+}
+
+#boton{
+    /* position: relative;
+    margin-top: 4vh;
+    padding-top: 2vh;
+    padding-left: 19vh;
+    bottom: 40px; */
+    position: absolute;
+    padding-left: 19vh;
+}
+
+.boton{
+    position: absolute;
+    padding-left: 19vh;
 }
