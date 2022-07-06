@@ -102,22 +102,24 @@ footer{
     font-size: 1.5vh;
     line-height: 2vh;
     padding-left: 1%;
+    max-width: 100%;
 }
 
 .container{
     display: grid;
     grid-template-columns: 33% 33% 33%;
     min-width: 33%;
+    max-width: 100%;
     
 }
 
 #Producto{
     /* background-color: #7c18e1; */
     /* height: 75vh; */
-    max-width: 100%;
+    max-width: 95%;
     min-width: 30%;
     float: left;
-    /* margin-bottom: 150px; */
+    margin-bottom: 10px;
     /* padding-left: 10px; */
     /* width: auto; */
     margin-top: 2%;
@@ -131,24 +133,18 @@ footer{
 }
 
 .Descripcion{
+    max-width: 100%;
     width: 50vh;
     font-weight: bold;
-    max-width: 100%;
+    
 }
 
 .precio{
-    margin-top: 4vh;
+    margin-top: 3vh;
     text-align: center;
+    max-width: 100%;
 }
 
-.btn-primary{
-    /* position: absolute; */
-    
-    /* left: 25%;
-    top: 50%;
-    left: 15vh;
-    top: 3vh; */
-}
 
 #boton{
     /* position: relative;
@@ -158,9 +154,13 @@ footer{
     bottom: 40px; */
     position: absolute;
     padding-left: 19vh;
+    margin-bottom: 10%;
+    width: 20px;
 }
 
 .boton{
     position: absolute;
     padding-left: 19vh;
+    max-width: 100%;
+    width: 20px;
 }
